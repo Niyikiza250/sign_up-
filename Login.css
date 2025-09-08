@@ -1,0 +1,105 @@
+
+body{
+    width: 100%;
+    height: 100dvh;
+display: flex;
+align-items: center;
+justify-content:center;
+background-image: url(bg1.avif);
+background-repeat:no-repeat;
+background-size: cover;
+}
+.containner{
+border: 5px solid black;
+border-radius: 50px;
+width: 650px;
+height: 450px;
+padding: 0;
+display: flex;
+background-color: white;
+
+
+
+}
+.first{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper a{
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.wrapper .button1{
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    font-size: 20px;
+}
+.place{
+    border-radius: 50px;
+    padding: 10px;
+}
+.h{
+
+    font-size: 20px;
+    width: 60%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second{
+    background-color: rgb(204, 196, 196);
+    border-radius: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+
+}
+.button{
+    border: 1px solid wheat;
+    border-radius: 20%;
+    background-color: rgb(204, 196, 196);
+    color: #fff;
+    padding: 30px 20px 20px 8px;
+    align-content: center;
+
+}
+
+.butto{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
